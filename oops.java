@@ -20,7 +20,6 @@ class D implements C{
     }
 }
 
-
 class Maths{        //overloading(compile time polymorphism)
     
     static int add(int a , int b){
@@ -34,7 +33,7 @@ class Maths{        //overloading(compile time polymorphism)
 
 class Parent{
     void show(){
-        System.out.println("parent class");      //overriding(runtime polymorphism)
+        System.out.println("parent class");  //overriding(runtime polymorphism)
     }
 }
 
@@ -46,7 +45,6 @@ class Child extends Parent{    //inheritance
 
 class Main{
 
-    
     public static void main(String[] args){
         
         A a =new A();
