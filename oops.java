@@ -1,4 +1,4 @@
-class A{    // encapsulation implementation	
+class A{    // encapsulation	
     
     private String name;    
     public String getName(){
