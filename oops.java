@@ -10,7 +10,7 @@ class A{    // encapsulation implemented
     
 }
 
-interface C{   // interface
+interface C{   // interface (100% abstraction) 
     void call();
 }
 
