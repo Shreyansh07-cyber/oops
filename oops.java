@@ -12,6 +12,7 @@ class A{    // encapsulation implemented
 
 interface C{   // interface (100% abstraction) 
     void call();
+
 }
 
 class D implements C{
