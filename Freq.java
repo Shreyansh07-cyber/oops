@@ -5,7 +5,8 @@ class Freq {
 <<<<<<< HEAD
     public static void main(String args[]){
 =======
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
 >>>>>>> master
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string: ");
