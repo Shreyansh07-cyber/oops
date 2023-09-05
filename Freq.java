@@ -9,7 +9,9 @@ class Freq {
         String si = sc.nextLine();
         int n = si.length();
         char s[] = si.toCharArray();
-        if (s[0] == '\0') {
+        
+	if (s[0] == '\0')
+	{
             System.out.println("It is a NULL String");
             System.exit(0);
         }
