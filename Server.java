@@ -1,7 +1,8 @@
 import java.io.*;
 import java.net.*;
 
-public class Server {
+public class Server 
+{
     public static boolean check(String data) {
         String[] salariesStr = data.split(",");
         if (salariesStr.length != 12) {
