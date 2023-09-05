@@ -1,3 +1,4 @@
+//final code
 class A{    // encapsulation implemented	
     
     private String name;    
