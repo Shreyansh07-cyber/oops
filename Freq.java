@@ -1,7 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-class Freq {
+class Freq 
+{
     public static void main(String args[]) 
     {
         Scanner sc = new Scanner(System.in);
