@@ -18,9 +18,6 @@ public class Client {
             String choice = userInput.readLine();
             writer.println(choice);
 
-            // System.out.print("Enter salaries for 12 months (comma-separated): ");
-            // String salaries = userInput.readLine();
-            // writer.println(salaries);
             while (!socket.isClosed()) {
                 String response = reader.readLine();
                 System.out.println("Server response: " + response);

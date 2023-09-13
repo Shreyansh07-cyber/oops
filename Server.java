@@ -2,6 +2,7 @@ import java.io.*;
 import java.net.*;
 
 public class Server {
+
     public static boolean check(String data) {
         String[] salariesStr = data.split(",");
         if (salariesStr.length != 12) {
@@ -45,7 +46,6 @@ public class Server {
 
                 if (choice.equalsIgnoreCase("max")) {
 
-                    // String data = reader.readLine();
                     String[] salariesStr = data.split(",");
                     double maxSalary = Double.MIN_VALUE;
                     for (String salaryStr : salariesStr) {
@@ -58,7 +58,7 @@ public class Server {
                 }
 
                 else if (choice.equalsIgnoreCase("min")) {
-                    // String data = reader.readLine();
+
                     String[] salariesStr = data.split(",");
                     double minSalary = Double.MAX_VALUE;
                     for (String salaryStr : salariesStr) {
@@ -71,11 +71,10 @@ public class Server {
 
                 } else if (choice.equalsIgnoreCase("avg")) {
                     double total, sum = 0;
-                    // String data = reader.readLine();
                     String[] salariesStr = data.split(",");
                     for (String salaryStr : salariesStr) {
                         sum += Double.parseDouble(salaryStr);
-                        // total = total / salariesStr.length;
+
                     }
                     total = (sum / salariesStr.length);
                     writer.println("average salary: " + total);
