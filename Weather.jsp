@@ -12,6 +12,7 @@
     
 </head>
 <body>
+
 <%
     try {
         String city = request.getParameter("CityName");
@@ -35,7 +36,8 @@
             }
             reader.close();
 			
-            JSONParser parser = new JSONParser();
+
+	    JSONParser parser = new JSONParser();
             JSONObject data = (JSONObject) parser.parse(resp.toString());
 			
             JSONObject main = (JSONObject) data.get("main");
