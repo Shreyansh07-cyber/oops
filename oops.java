@@ -1,4 +1,4 @@
-class A{    // encapsulation implementation	
+class A{    // encapsulation implemented	
     
     private String name;    
     public String getName(){
@@ -10,8 +10,9 @@ class A{    // encapsulation implementation
     
 }
 
-interface C{   // interface
+interface C{   // interface (100% abstraction) 
     void call();
+
 }
 
 class D implements C{
@@ -19,7 +20,6 @@ class D implements C{
         System.out.println("interface called");
     }
 }
-
 
 class Maths{        //overloading(compile time polymorphism)
     
@@ -34,7 +34,7 @@ class Maths{        //overloading(compile time polymorphism)
 
 class Parent{
     void show(){
-        System.out.println("parent class");      //overriding(runtime polymorphism)
+        System.out.println("parent class");  //overriding(runtime polymorphism)
     }
 }
 
@@ -46,7 +46,6 @@ class Child extends Parent{    //inheritance
 
 class Main{
 
-    
     public static void main(String[] args){
         
         A a =new A();
@@ -57,7 +56,8 @@ class Main{
         System.out.println(Maths.add(2,3));
         System.out.println(Maths.add(2.2,3.3));
         
-        
+
+
         Parent p=new Parent();
         p.show();
         Parent c=new Child();
